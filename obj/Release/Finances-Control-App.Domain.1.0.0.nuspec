@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Finances-Control-App.Domain</id>
+    <version>1.0.0</version>
+    <title>Finances App Domain</title>
+    <authors>Finances-Control-App.Domain</authors>
+    <icon>6811816.png</icon>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Projetos Pessoais\Finances-Control-App\Finances-Control-App-API\Finances-Control-App.Domain\Finances-Control-App.Domain\bin\Release\net8.0\Finances-Control-App.Domain.dll" target="lib\net8.0\Finances-Control-App.Domain.dll" />
+    <file src="C:\Users\lucas\OneDrive\Imagens\6811816.png" target="\6811816.png" />
+  </files>
+</package>

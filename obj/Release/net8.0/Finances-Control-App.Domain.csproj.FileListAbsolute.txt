@@ -1,0 +1,14 @@
+C:\Projetos Pessoais\Finances-Control-App\Finances-Control-App-API\Finances-Control-App.Domain\Finances-Control-App.Domain\bin\Release\net8.0\Finances-Control-App.Domain.deps.json
+C:\Projetos Pessoais\Finances-Control-App\Finances-Control-App-API\Finances-Control-App.Domain\Finances-Control-App.Domain\bin\Release\net8.0\Finances-Control-App.Domain.dll
+C:\Projetos Pessoais\Finances-Control-App\Finances-Control-App-API\Finances-Control-App.Domain\Finances-Control-App.Domain\bin\Release\net8.0\Finances-Control-App.Domain.pdb
+C:\Projetos Pessoais\Finances-Control-App\Finances-Control-App-API\Finances-Control-App.Domain\Finances-Control-App.Domain\obj\Release\net8.0\Finances-Control-App.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos Pessoais\Finances-Control-App\Finances-Control-App-API\Finances-Control-App.Domain\Finances-Control-App.Domain\obj\Release\net8.0\Finances-Control-App.Domain.AssemblyInfoInputs.cache
+C:\Projetos Pessoais\Finances-Control-App\Finances-Control-App-API\Finances-Control-App.Domain\Finances-Control-App.Domain\obj\Release\net8.0\Finances-Control-App.Domain.AssemblyInfo.cs
+C:\Projetos Pessoais\Finances-Control-App\Finances-Control-App-API\Finances-Control-App.Domain\Finances-Control-App.Domain\obj\Release\net8.0\Finances-Control-App.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos Pessoais\Finances-Control-App\Finances-Control-App-API\Finances-Control-App.Domain\Finances-Control-App.Domain\obj\Release\net8.0\Finances-Control-App.Domain.dll
+C:\Projetos Pessoais\Finances-Control-App\Finances-Control-App-API\Finances-Control-App.Domain\Finances-Control-App.Domain\obj\Release\net8.0\refint\Finances-Control-App.Domain.dll
+C:\Projetos Pessoais\Finances-Control-App\Finances-Control-App-API\Finances-Control-App.Domain\Finances-Control-App.Domain\obj\Release\net8.0\Finances-Control-App.Domain.pdb
+C:\Projetos Pessoais\Finances-Control-App\Finances-Control-App-API\Finances-Control-App.Domain\Finances-Control-App.Domain\obj\Release\net8.0\ref\Finances-Control-App.Domain.dll
+C:\Projetos Pessoais\Finances-Control-App\Finances-Control-App-API\Finances-Control-App.Domain\Finances-Control-App.Domain\bin\Release\net8.0\Finances-Control-App.Domain.runtimeconfig.json
+C:\Projetos Pessoais\Finances-Control-App\Finances-Control-App-API\Finances-Control-App.Domain\Finances-Control-App.Domain\obj\Release\net8.0\Finances-Control-App.Domain.csproj.AssemblyReference.cache
+C:\Projetos Pessoais\Finances-Control-App\Finances-Control-App-API\Finances-Control-App.Domain\Finances-Control-App.Domain\obj\Release\net8.0\Finances-Control-App.Domain.genruntimeconfig.cache
