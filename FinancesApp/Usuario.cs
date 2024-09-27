@@ -11,8 +11,14 @@ namespace Finances_Control_App.Domain.FinancesApp
     {
         [Key]
         public int IdUsuario { get; set; }
+
+        [StringLength(100)]
         public string NmUsuario { get; set; }
+        
+        [StringLength(100)]
         public string NmSenha { get; set; }
+        
+        [StringLength(100)]
         public string NmLogin { get; set; }
 
     }
