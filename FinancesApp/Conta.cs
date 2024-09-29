@@ -20,11 +20,15 @@ namespace Finances_Control_App.Domain.FinancesApp
         public string NumConta { get; set; }
         public int IdUsuario { get; set; }
 
+        public int? IdAccountFlag { get; set; }
+
         [Column(TypeName = "decimal(18, 2)")]
         public double Saldo { get; set; }
 
         [ForeignKey("IdUsuario")]
         public virtual Usuario Usuario { get; set; }
 
+        [ForeignKey("IdAccountFlag")]
+        public virtual AccountFlag AccountFlag { get; set; }
     }
 }
