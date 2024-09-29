@@ -23,11 +23,6 @@ namespace Finances_Control_App.Domain.FinancesApp
         [Column(TypeName = "decimal(18, 2)")]
         public double Saldo { get; set; }
 
-        public int IdAccountFlag { get; set; }
-
-        [ForeignKey("IdAccountFlag")]
-        public virtual AccountFlag AccountFlag { get; set; }
-
         [ForeignKey("IdUsuario")]
         public virtual Usuario Usuario { get; set; }
 
