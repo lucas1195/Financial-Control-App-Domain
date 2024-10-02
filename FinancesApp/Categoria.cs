@@ -12,7 +12,8 @@ namespace Finances_Control_App.Domain.FinancesApp
         [Key]
         public int IdCategoria { get; set; }
 
-        [StringLength(200)]
+        [Required(ErrorMessage = "O nome da categoria é obrigatório.")]
+        [StringLength(200, ErrorMessage = "O nome da categoria deve ter no máximo 200 caracteres.")]
         public string NmCategoria { get; set; }
 
     }
