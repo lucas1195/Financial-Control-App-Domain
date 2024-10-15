@@ -10,10 +10,10 @@ namespace Finances_Control_App.Domain.FinancesApp
 {
     public class Context(DbContextOptions<Context> options) : DbContext(options)
     {
-        public DbSet<Transfer> Transferencia { get; set; }
-        public DbSet<Category> Categoria { get; set; }
-        public DbSet<User> Usuario { get; set; }
-        public DbSet<Account> Conta { get; set; }
+        public DbSet<Transfer> Transfer { get; set; }
+        public DbSet<Category> Category { get; set; }
+        public DbSet<User> User { get; set; }
+        public DbSet<Account> Account { get; set; }
         public DbSet<AccountFlag> AccountFlag { get; set; }
     }
 }

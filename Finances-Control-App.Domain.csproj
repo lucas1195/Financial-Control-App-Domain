@@ -8,7 +8,7 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Finances App Domain</Title>
     <PackageIcon>6811816.png</PackageIcon>
-	<Version>1.5.0</Version>
+	<Version>1.5.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
