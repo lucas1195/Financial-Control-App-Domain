@@ -8,12 +8,12 @@ using System.Threading.Tasks;
 
 namespace Finances_Control_App.Domain.FinancesApp
 {
-    public class Contexto(DbContextOptions<Contexto> options) : DbContext(options)
+    public class Context(DbContextOptions<Context> options) : DbContext(options)
     {
-        public DbSet<Transferencia> Transferencia { get; set; }
-        public DbSet<Categoria> Categoria { get; set; }
-        public DbSet<Usuario> Usuario { get; set; }
-        public DbSet<Conta> Conta { get; set; }
+        public DbSet<Transfer> Transferencia { get; set; }
+        public DbSet<Category> Categoria { get; set; }
+        public DbSet<User> Usuario { get; set; }
+        public DbSet<Account> Conta { get; set; }
         public DbSet<AccountFlag> AccountFlag { get; set; }
     }
 }

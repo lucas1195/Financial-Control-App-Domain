@@ -10,13 +10,14 @@ namespace Finances_Control_App.Domain.FinancesApp
     public class AccountFlag
     {
         [Key]
-        public int IdAccountFlag { get; set; }
+        public int AccountFlagId { get; set; }
 
-        [Required(ErrorMessage = "O nome da bandeira da conta é obrigatório.")]
-        [StringLength(200, ErrorMessage = "O nome da bandeira da conta deve ter no máximo 200 caracteres.")]
-        public string NmAccountFlag { get; set; }
+        [Required(ErrorMessage = "The account flag name is required.")]
+        [StringLength(200, ErrorMessage = "The account flag name must have a maximum of 200 characters.")]
+        public string AccountFlagName { get; set; }
 
-        [Required(ErrorMessage = "A imagem da bandeira da conta é obrigatória.")]
-        public byte[] ImgAccountFlag { get; set; }
+        [Required(ErrorMessage = "The account flag image is required.")]
+        public byte[] AccountFlagImage { get; set; }
+
     }
 }
