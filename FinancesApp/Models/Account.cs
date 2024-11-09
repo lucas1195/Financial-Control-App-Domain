@@ -1,4 +1,5 @@
 ﻿using Finances_Control_App.Domain.FinancesApp.Enums;
+using SolidarityBlood.Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -7,9 +8,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Finances_Control_App.Domain.FinancesApp
+namespace Finances_Control_App.Domain.FinancesApp.Models
 {
-    public class Account
+    public class Account : BaseEntity
     {
         [Key]
         public int AccountId { get; set; }
@@ -42,9 +43,9 @@ namespace Finances_Control_App.Domain.FinancesApp
         public AccountType? TransactionType { get; set; }
 
         [ForeignKey("UserId")]
-        public virtual User User { get; set; }
+        public virtual User? User { get; set; }
 
         [ForeignKey("AccountFlagId")]
-        public virtual AccountFlag AccountFlag { get; set; }
+        public virtual AccountFlag? AccountFlag { get; set; }
     }
 }

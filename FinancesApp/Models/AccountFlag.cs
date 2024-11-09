@@ -1,13 +1,14 @@
-﻿using System;
+﻿using SolidarityBlood.Core.Entities;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Finances_Control_App.Domain.FinancesApp
+namespace Finances_Control_App.Domain.FinancesApp.Models
 {
-    public class AccountFlag
+    public class AccountFlag : BaseEntity
     {
         [Key]
         public int AccountFlagId { get; set; }

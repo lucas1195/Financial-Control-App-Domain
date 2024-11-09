@@ -1,13 +1,14 @@
-﻿using System;
+﻿using SolidarityBlood.Core.Entities;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Finances_Control_App.Domain.FinancesApp
+namespace Finances_Control_App.Domain.FinancesApp.Models
 {
-    public class User
+    public class User : BaseEntity
     {
         [Key]
         public int UserId { get; set; }

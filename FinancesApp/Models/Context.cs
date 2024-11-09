@@ -6,7 +6,7 @@ using System.Reflection.PortableExecutable;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Finances_Control_App.Domain.FinancesApp
+namespace Finances_Control_App.Domain.FinancesApp.Models
 {
     public class Context(DbContextOptions<Context> options) : DbContext(options)
     {

@@ -12,3 +12,4 @@ C:\Projetos Pessoais\Finances-Control-App\Finances-Control-App-API\Finances-Cont
 C:\Projetos Pessoais\Finances-Control-App\Finances-Control-App-API\Finances-Control-App.Domain\Finances-Control-App.Domain\bin\Release\net8.0\Finances-Control-App.Domain.runtimeconfig.json
 C:\Projetos Pessoais\Finances-Control-App\Finances-Control-App-API\Finances-Control-App.Domain\Finances-Control-App.Domain\obj\Release\net8.0\Finances-Control-App.Domain.csproj.AssemblyReference.cache
 C:\Projetos Pessoais\Finances-Control-App\Finances-Control-App-API\Finances-Control-App.Domain\Finances-Control-App.Domain\obj\Release\net8.0\Finances-Control-App.Domain.genruntimeconfig.cache
+C:\Projetos Pessoais\Finances-Control-App\Finances-Control-App-API\Finances-Control-App.Domain\Finances-Control-App.Domain\obj\Release\net8.0\Finances-Control-App.Domain.sourcelink.json

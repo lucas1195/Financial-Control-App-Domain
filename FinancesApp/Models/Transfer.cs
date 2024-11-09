@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SolidarityBlood.Core.Entities;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -6,9 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Finances_Control_App.Domain.FinancesApp
+namespace Finances_Control_App.Domain.FinancesApp.Models
 {
-    public class Transfer
+    public class Transfer : BaseEntity
     {
         [Key]
         public int TransferId { get; set; }
@@ -33,13 +34,13 @@ namespace Finances_Control_App.Domain.FinancesApp
         public int AccountId { get; set; }
 
         [ForeignKey("UserId")]
-        public virtual User User { get; set; }
+        public virtual User? User { get; set; }
 
         [ForeignKey("CategoryId")]
-        public virtual Category Category { get; set; }
+        public virtual Category? Category { get; set; }
 
         [ForeignKey("AccountId")]
-        public virtual Account Account { get; set; }
+        public virtual Account? Account { get; set; }
     }
 
 }

@@ -2,12 +2,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>Finances-Control-App.Domain</id>
-    <version>1.0.2</version>
+    <version>1.0.5</version>
     <title>Finances App Domain</title>
     <authors>Finances-Control-App.Domain</authors>
     <icon>6811816.png</icon>
     <description>Package Description</description>
-    <repository type="git" commit="5ed86a8e5c8ff76bf823f24597a52c2f4faa4939" />
+    <repository type="git" commit="6a97a8d95edb2767479c3dced6b8b620363149c5" />
     <dependencies>
       <group targetFramework="net8.0">
         <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="8.0.6" exclude="Build,Analyzers" />
