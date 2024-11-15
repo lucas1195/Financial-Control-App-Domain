@@ -13,11 +13,11 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("Finances-Control-App.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.5.3.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.5.3+f33cf8f5c5eb62060bdaf1f746bd709a4084c471")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.5.7.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.5.7+ffb6f905c4c6a08cf40b6b60368ac525402ab52b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Finances-Control-App.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Finances-Control-App.Domain")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.5.3.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.5.7.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
 

@@ -1,5 +1,4 @@
-﻿using SolidarityBlood.Core.Entities;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -9,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Finances_Control_App.Domain.FinancesApp.Models
 {
-    public class Transfer : BaseEntity
+    public class Transfer
     {
         [Key]
         public int TransferId { get; set; }

@@ -15,5 +15,6 @@ namespace Finances_Control_App.Domain.FinancesApp.Models
         public DbSet<User> User { get; set; }
         public DbSet<Account> Account { get; set; }
         public DbSet<AccountFlag> AccountFlag { get; set; }
+
     }
 }

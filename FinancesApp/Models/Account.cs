@@ -1,5 +1,4 @@
 ﻿using Finances_Control_App.Domain.FinancesApp.Enums;
-using SolidarityBlood.Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -10,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Finances_Control_App.Domain.FinancesApp.Models
 {
-    public class Account : BaseEntity
+    public class Account
     {
         [Key]
         public int AccountId { get; set; }

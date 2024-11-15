@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "Finances-Control-App.Domain/1.5.3": {
+      "Finances-Control-App.Domain/1.5.7": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "8.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8",
@@ -929,7 +929,7 @@
     }
   },
   "libraries": {
-    "Finances-Control-App.Domain/1.5.3": {
+    "Finances-Control-App.Domain/1.5.7": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
