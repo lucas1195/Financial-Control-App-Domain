@@ -22,7 +22,7 @@ namespace Finances_Control_App.Domain.FinancesApp.Models
         [Required(ErrorMessage = "The category ID is required.")]
         public int CategoryId { get; set; }
 
-        [Required(ErrorMessage = "The financial plan type is required.")]
-        public FinancialPlanType PlanType { get; set; }
+        [Required(ErrorMessage = "The financial plan category type is required.")]
+        public FinancialPlanCategoryType PlanCategoryType { get; set; }
     }
 }

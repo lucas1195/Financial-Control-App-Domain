@@ -7,18 +7,18 @@ using System.Threading.Tasks;
 namespace Finances_Control_App.Domain.FinancesApp.Enums
 {
     /// <summary>
-    /// Represents the type of an account.
+    /// Represents the type of a financial plan category.
     /// </summary>
-    public enum AccountType
+    public enum FinancialPlanCategoryType
     {
         /// <summary>
-        /// Represents a debit account.
+        /// Represents a priority category.
         /// </summary>
-        Debit = 0,
+        Priority = 0,
 
         /// <summary>
-        /// Represents a credit account.
+        /// Represents a personal category.
         /// </summary>
-        Credit = 1
+        Personal = 1
     }
 }
