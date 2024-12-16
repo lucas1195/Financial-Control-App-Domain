@@ -32,6 +32,10 @@ namespace Finances_Control_App.Domain.FinancesApp.Models
         [Range(0, double.MaxValue, ErrorMessage = "The prioritary spendings value must be a positive value.")]
         public decimal PrioritarySpendingsValue { get; set; }
 
+        [Required(ErrorMessage = "The periody savings value is required.")]
+        [Range(0, double.MaxValue, ErrorMessage = "The periody savings value must be a positive value.")]
+        public decimal PeriodySavingsValue { get; set; }
+
         [Required(ErrorMessage = "The start date is required.")]
         public DateTime StartDate { get; set; }
 
