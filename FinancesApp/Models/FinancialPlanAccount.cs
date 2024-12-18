@@ -9,6 +9,7 @@ namespace Finances_Control_App.Domain.FinancesApp.Models
 {
     public class FinancialPlanAccount
     {
+        [Key]
         public int FinancialPlanAccountId { get; set; }
 
         [Required(ErrorMessage = "The account ID is required.")]
